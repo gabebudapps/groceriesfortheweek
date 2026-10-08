@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>周食集——安排一周菜式，一次买齐</title>
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f6f6f4; --line: #e2e2dd;
+    --text: #16160f; --muted: #5f5f57; --accent: #d14230;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111110; --surface: #1b1b19; --line: #2c2c28;
+      --text: #f2f2ec; --muted: #9d9d94; --accent: #f57a68;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 4rem 1.25rem 5rem;
+    background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  .eyebrow {
+    font-size: .75rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--muted); margin: 0 0 .5rem;
+  }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin: 0 0 .75rem; letter-spacing: -.02em; }
+  .lede { color: var(--muted); margin: 0 0 2.5rem; }
+  nav { display: grid; gap: .75rem; }
+  nav a {
+    display: block; text-decoration: none; color: inherit;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 12px; padding: 1rem 1.25rem;
+  }
+  nav a strong { display: block; color: var(--accent); margin-bottom: .15rem; }
+  nav a span { color: var(--muted); font-size: .9375rem; }
+  footer a { color: var(--muted); }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: .875rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <p class="eyebrow">iPhone 应用</p>
+  <h1>周食集</h1>
+  <p class="lede">挑好这一周要做的菜品，「周食集」会为每道菜找到真实、评价好的菜谱，按家庭人数调整食材数量，再把所有食材合并成一份购物清单。你的计划只保存在你的 iPhone 上。</p>
+
+  <nav>
+    <a href="./support.zh-Hans.html">
+      <strong>支持</strong>
+      <span>常见问题，以及如何联系我们。</span>
+    </a>
+    <a href="./privacy.zh-Hans.html">
+      <strong>隐私政策</strong>
+      <span>很简短，因为这款应用不会收集任何关于你的信息。</span>
+    </a>
+  </nav>
+
+  <footer>
+    <p>周食集 · 发布方：Gabe Bud Investments Limited</p>
+    <p class="langs"><a href="./index.html" hreflang="en">English</a> · <a href="./index.zh-Hant.html" hreflang="zh-Hant">繁體中文</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
